@@ -13,7 +13,7 @@ import GraphVisualization from './components/GraphVisualization';
 import NodeForm from './components/NodeForm';
 import RelationshipForm from './components/RelationshipForm';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://backendknowledge-graph.onrender.com/api';
 
 function App() {
     const [nodes, setNodes] = useState([]);
